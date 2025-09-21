@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { useMiniKit } from '@coinbase/minikit';
 import { InterestSelection } from '../components/InterestSelection';
 import { InterestFeed } from '../components/InterestFeed';
 import { MeetupPlanner } from '../components/MeetupPlanner';
@@ -14,7 +13,8 @@ type Tab = 'home' | 'discover' | 'events' | 'profile';
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState<Tab>('home');
   const [userInterests, setUserInterests] = useState<string[]>([]);
-  const { context } = useMiniKit();
+  // Mock context for now
+  const context = { user: { fid: '1', displayName: 'Anonymous' } };
 
   const renderContent = () => {
     switch (activeTab) {
