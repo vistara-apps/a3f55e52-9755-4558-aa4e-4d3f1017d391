@@ -1,0 +1,14 @@
+{
+  "name": "VibeFindr",
+  "description": "VibeFindr is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://a3f55e52-9755-4558-aa4e-4d3f1017d391.vercel.app",
+  "properties": {
+    "app": {
+      "name": "VibeFindr",
+      "description": "VibeFindr is a Base Mini App built with Zara.",
+      "url": "https://a3f55e52-9755-4558-aa4e-4d3f1017d391.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
